@@ -2,9 +2,11 @@ backend:
   name: git-gateway
   branch: master
 
-
-media_folder: "public/uploads"
-public_folder: "/uploads"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dgsflpogi
+    api_key: 955895633394293
 
 collections:
   - name: "blog"
